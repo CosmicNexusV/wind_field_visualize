@@ -4,10 +4,6 @@ on:
   # 手动触发
   workflow_dispatch:
   
-#   # 定时运行（可选）- 每天 UTC 时间 0:00 运行
-#   schedule:
-#     - cron: '0 0 * * *'
-  
   # 推送到 main 分支时触发（可选）
   push:
     branches:

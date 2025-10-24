@@ -1,4 +1,4 @@
-cdsapi
+cdsapi>=0.7.7
 earthkit-data
 earthkit-plots
 cartopy

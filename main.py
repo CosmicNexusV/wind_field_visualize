@@ -14,7 +14,7 @@ source = 'cds'
 dataset = 'reanalysis-era5-single-levels'
 
 # 定义时间范围
-start_time = datetime(2023, 7, 31, 2)
+start_time = datetime(2023, 7, 28, 2)
 end_time = datetime(2023, 8, 12, 2)
 
 # 循环遍历每个小时
@@ -40,6 +40,7 @@ while current_time <= end_time:
         'month': month,
         'day': day,
         'time': time_str,
+        'area': [50, 110, 0, 150],
     }
 
     # 加载数据
