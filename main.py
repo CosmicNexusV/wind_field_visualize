@@ -53,7 +53,7 @@ while current_time <= end_time:
     print(f"数据已保存为: {output_filename}")
 
     # 向图形添加“卡努”所在区域的地图
-    chart = earthkit.plots.Map(domain=[0, 50, 110, 150])
+    chart = earthkit.plots.Map(domain=[0, 50, 110, 150], crs=ccrs.PlateCarree())
 
     # 使用我们偏好的单位绘制温度、压力和风速数据
     # 绘图样式来自样式库，并根据源数据的元数据进行选择
