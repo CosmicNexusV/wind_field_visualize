@@ -1,0 +1,9 @@
+cdsapi
+earthkit-data
+earthkit-plots
+cartopy
+numpy
+matplotlib
+netCDF4
+cfgrib
+eccodes
